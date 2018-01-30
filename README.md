@@ -1,0 +1,2 @@
+# tmux-theme-minimal
+🐉
