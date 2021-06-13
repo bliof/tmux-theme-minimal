@@ -2,14 +2,13 @@
 # minimal-red - https://github.com/bliof/tmux-theme-minimal
 ################################################################################
 
-set -g status-left '#[fg=colour124,bold]#S:#I |'
-set-window-option -g window-status-format '#[fg=colour124,bold]#F#[fg=default]#W#[fg=colour124,bold]#F'
-set-window-option -g window-status-current-format '#[fg=colour124,bold]#F#[fg=colour124,bold]#W#[fg=colour124,bold]#F'
-set -g status-right '#[fg=colour124,bold]| %a %b %d %I:%M %p'
-set -g status-bg default
-set -g status-fg default
+set -g status-style bg=default,fg=default
 set -g status-position top
 set -g status-justify centre
+set -g status-left '#[fg=colour124,bold]#S:#I |'
+set -g window-status-format '#[fg=colour124,bold]#F#[fg=default]#W#[fg=colour124,bold]#F'
+set -g window-status-current-format '#[fg=colour124,bold]#F#[fg=colour124,bold]#W#[fg=colour124,bold]#F'
+set -g status-right '#[fg=colour124,bold]| %a %b %d %I:%M %p'
 
 # Pane border
 set -g pane-border-bg default
